@@ -1,0 +1,23 @@
+{"fv": [
+ {"nazev": "Návrh elektrárne", "popis": "Projektovanie v softvéri PV*SOL na základe geologických a topografických údajov, s ohľadom na tienenie, orientáciu panelov a možnosti pripojenia."},
+ {"nazev": "Povolenia a dokumentácia", "popis": "Stavebné povolenia, žiadosť o pripojenie u distribučnej spoločnosti, projektová dokumentácia (elektro, PO, statický posudok) a autorizovaný stavebný dozor."},
+ {"nazev": "EPC na kľúč", "popis": "Inžiniering, obstarávanie a výstavba vrátane projektového manažmentu, logistiky a uvedenia do prevádzky."},
+ {"nazev": "Výstavba a pripojenie", "popis": "Terénne úpravy, montáž konštrukcií a panelov, kabeláž, striedače, VN rozvodne a meracie zariadenia."},
+ {"nazev": "Prevádzka a monitorovanie", "popis": "Správa SPV, zastupovanie investora, monitorovacie centrum, upozornenia na poruchy a pravidelné správy o výrobe."},
+ {"nazev": "Údržba", "popis": "Plánovaná aj havarijná údržba elektrární v našej správe aj u tretích strán."}
+],
+"au": [
+ {"nazev": "Návrh riešenia", "popis": "Technické poradenstvo, simulácie, elektrické schémy a technická dokumentácia."},
+ {"nazev": "Výskum a vývoj", "popis": "Modelovanie a prototypovanie elektrických zariadení, vývoj softvéru a komunikácie medzi zariadeniami."},
+ {"nazev": "Programovanie", "popis": "Aplikačný softvér pre PLC, DCS a HMI na riadenie výrobných procesov, liniek a robotických zariadení."},
+ {"nazev": "Inštalácia", "popis": "Mechanická inštalácia komponentov, rozvodnice, ochrany obvodov, technické atesty a certifikáty."},
+ {"nazev": "Servis 24/7", "popis": "Záručný aj pozáručný servis, rýchla reakcia na poruchu, diagnostika a opravy elektroniky."}
+],
+"ref": [
+ {"m": "Čečejovce", "v": "4 000 kWp"},
+ {"m": "Nitra", "v": "1 564,56 kWp · strecha, zem, carport"},
+ {"m": "Malé Trakany", "v": "1 260 kWp + batéria 860 kWh"},
+ {"m": "Námestovo", "v": "batéria 1 288 kWh"},
+ {"m": "Čeľadice", "v": "1 050 kWp · fasáda, strecha, zem, carport"},
+ {"m": "Lipany", "v": "1 000 kWp"}
+]}

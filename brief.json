@@ -1,0 +1,166 @@
+{
+ "slug": "enprotech",
+ "zdroj_url": "https://www.enprotech.sk",
+ "firma": "Enprotech, a.s.",
+ "obor": [
+  "stavebnictví a řemesla",
+  "zahrada a venkov"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@enprotech.sk"
+  ],
+  "telefony": [
+   "+421 915 600 177"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/enprotech.sk",
+   "https://www.instagram.com/enprotech_as"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://enprotech.sk/wp-content/uploads/2023/07/Dexfinity-300x93.png",
+  "rozmery": [
+   300,
+   93
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#0693e3",
+   "#ff6900",
+   "#9b51e0",
+   "#00d084",
+   "#cf2e2e",
+   "#fdd79a"
+  ],
+  "z_loga": [
+   "#4991f9",
+   "#01004b",
+   "#006da6"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#4991f9",
+   "#01004b",
+   "#0693e3",
+   "#ff6900"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.webp",
+   "url": "https://enprotech.sk/wp-content/uploads/2023/09/10-rokov-skusenosti-01-768x836.webp",
+   "sirka": 768,
+   "vyska": 836,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://enprotech.sk/wp-content/uploads/2026/01/1761811205729-768x768.jpeg",
+   "sirka": 768,
+   "vyska": 768,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.png",
+   "url": "https://enprotech.sk/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-21.24.40-768x626.png",
+   "sirka": 768,
+   "vyska": 626,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.png",
+   "url": "https://enprotech.sk/wp-content/uploads/2025/07/Snimka-obrazovky-2025-07-16-o-18.03.36-2048x1649.png",
+   "sirka": 2048,
+   "vyska": 1649,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://enprotech.sk/wp-content/uploads/2023/07/Strader-1536x1536.jpeg",
+   "sirka": 1536,
+   "vyska": 1536,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Čistá, bezpečná, obnoviteľná. Prečo nie?",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h1",
+   "text": "Čistá, bezpečná, obnoviteľná. Prečo nie?",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h1",
+   "text": "Čistá, bezpečná, obnoviteľná. Prečo nie?",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "ENPROTECH",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "inžinierstvo v procesných technológiách",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "ENERGETIKA",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "PRIEMYSEL",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "NAŠE ČINNOSTI",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Blogy & články",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "NAŠI PARTNERI",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Spoločnosť Enprotech a.s.,získala status Huawei Preffered Installer, ktorý potvrdzuje našu odbornosť, technickú kvalitu a […]",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "S hrdosťou oznamujeme, že spoločnosť Enprotech a.s. získala významný projekt, na dodanie a inštaláciu […]",
+   "zdroj": "https://enprotech.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Skupina firiem Enprotech pokračuje v dynamickom rozvoji svojich aktivít v oblasti obnoviteľných zdrojov energie. […]",
+   "zdroj": "https://enprotech.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 5, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": ""
+}

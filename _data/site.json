@@ -1,0 +1,27 @@
+{
+  "slug": "enprotech",
+  "nazev": "Enprotech, a.s.",
+  "url": "https://webhunter-navrhy.github.io/sk-enprotech/",
+  "base": "/sk-enprotech/",
+  "lang": "sk",
+  "popis": "Enprotech a.s., Košice: fotovoltické elektrárne na kľúč, prevádzka a údržba, automatizácia a inžinierstvo v procesných technológiách.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "foto-04.png",
+  "logo": "img/logo.jpg",
+  "theme_color": "#1b191a",
+  "typ": "Organization",
+  "ico": "",
+  "kontakt": {"email": "info@enprotech.sk", "telefon": "", "adresa": {"ulice": "Kukučínova 86/9", "psc": "040 01", "mesto": "Košice", "zeme": "SK"}},
+  "oteviraci_doba": [],
+  "sameas": ["https://www.facebook.com/enprotech.sk", "https://www.instagram.com/enprotech_as"],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Dopyt z webu enprotech.sk"},
+  "nav": [
+    {"text": "Fotovoltika", "href": "#fotovoltika"},
+    {"text": "Automatizácia", "href": "#automatizacia"},
+    {"text": "O nás", "href": "#o-nas"},
+    {"text": "Referencie", "href": "#referencie"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}

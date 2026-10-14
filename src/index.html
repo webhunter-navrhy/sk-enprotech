@@ -1,0 +1,89 @@
+{% extends "_base.html" %}
+{% set titulek = 'Enprotech, a.s. – fotovoltika a automatizácia, Košice' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="znacka">Inžinierstvo v procesných technológiách</p>
+      <h1>Čistá, bezpečná, obnoviteľná. <em>Prečo nie?</em></h1>
+      <p class="uvod">Slovenská spoločnosť z Košíc pôsobiaca v energetike a automatizácii. Stavíme a spravujeme fotovoltické elektrárne, riešime rekuperáciu tepla a riadenie výrobných procesov.</p>
+      <p class="akcie"><a class="btn" href="#kontakt">Poslať dopyt</a> <a class="btn btn-tichy" href="#referencie">Referencie</a></p>
+    </div>
+    <div class="hero-foto">{{ img('foto-04.png', 'Fotovoltické panely na strechách výrobného areálu', sizes='(min-width: 60rem) 40rem, 100vw') }}</div>
+  </div>
+</section>
+
+<section class="cisla">
+  <div class="wrap">
+    <ul role="list">
+      <li><strong>215+</strong><span>spokojných zákazníkov</span></li>
+      <li><strong>58,2 MWp+</strong><span>v správe O&amp;M</span></li>
+      <li><strong>2013</strong><span>vznik spoločnosti</span></li>
+      <li><strong>SK · CZ · HU</strong><span>pôsobíme v troch krajinách</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="fotovoltika">
+  <div class="wrap">
+    <p class="nadpis-maly">Fotovoltika</p>
+    <h2>Od návrhu po prevádzku elektrárne</h2>
+    <ul role="list" class="mriezka">
+      {% for s in data.sluzby.fv %}<li><span class="cislo">{{ '%02d' % loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="automatizacia">
+  <div class="wrap">
+    <p class="nadpis-maly">Automatizácia</p>
+    <h2>Riadenie procesov, ktoré sa nezastaví</h2>
+    <ul role="list" class="mriezka">
+      {% for s in data.sluzby.au %}<li><span class="cislo">{{ '%02d' % loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="o-nas">
+  <div class="wrap dva">
+    <div>
+      <p class="nadpis-maly">O nás</p>
+      <h2>Skupina Enprotech</h2>
+      <p>Enprotech a.s. sa primárne venuje výstavbe a správe fotovoltických elektrární a rekuperácii prebytočného tepla. Zabezpečuje aj servisné a administratívne činnosti spojené s prevádzkou energetických zariadení.</p>
+      <p>Procesy máme certifikované podľa ISO 9001 a 14001, v ratingu ESG od EcoVadis sme získali platinovú medailu a sme Huawei Preferred Installer.</p>
+    </div>
+    <ul role="list" class="certy">
+      <li>ISO 9001 · 14001</li><li>EcoVadis – platinová medaila ESG</li><li>Huawei Preferred Installer</li><li>Vyškolení a certifikovaní pracovníci pre bezpečnosť pri práci</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce svetla" id="referencie">
+  <div class="wrap">
+    <p class="nadpis-maly">Referencie</p>
+    <h2>Vybrané realizácie</h2>
+    <ul role="list" class="refs">
+      {% for r in data.sluzby.ref %}<li><strong>{{ r.m }}</strong><span>{{ r.v }}</span></li>{% endfor %}
+    </ul>
+    <div class="foto-pas">
+      {{ img('enprotech-Projektovanie-01.jpg', 'Projektovanie', sizes='(min-width: 60rem) 18rem, 50vw') }}
+      {{ img('enprotech-Cinnosti_Dodavky-zariadeni-01.jpg', 'Dodávky zariadení', sizes='(min-width: 60rem) 18rem, 50vw') }}
+      {{ img('enprotech-Servisne-sluzby-01.jpg', 'Servisné služby', sizes='(min-width: 60rem) 18rem, 50vw') }}
+      {{ img('enprotech-CEnergeticka-administrativa-01.jpg', 'Energetická administratíva', sizes='(min-width: 60rem) 18rem, 50vw') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <p class="nadpis-maly">Kontakt</p>
+      <h2>Kontaktujte nás</h2>
+      <p><strong>Enprotech a.s.</strong><br>Kukučínova 86/9<br>SK-040 01 Košice</p>
+      <p><a href="mailto:info@enprotech.sk">info@enprotech.sk</a></p>
+    </div>
+    <div>{% include "_formular.html" %}</div>
+  </div>
+</section>
+{% endblock %}
